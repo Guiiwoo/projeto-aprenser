@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --cor1: #2A2A2A;
+    --cor2: #FFD000;
+    --cor3: #FEFE4A;
+    --cor4: #003463;
+    --cor5: #3e3e3e;
+    --cor6: #ffe100;
+    --cor7: #FAFAFA;
+}
+
+html, body{
+    height: 100vh;
+}
+
+div#divheader{
+    background-color: var(--cor1);
+}
+
+div#divheader > header{
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+    height: 90px;
+    gap: 200px;
+    justify-content: space-between;
+}
+
+div#divheader > header > img{
+    margin-bottom: 15px ;
+    margin-left: 50px;
+}
+
+div#divheader > header > nav{
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+div#divheader > header > nav > a{
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bolder;
+    border: 1px solid var(--cor2);
+    padding: 10px 15px;
+}
+
+div#divheader > header > nav > a:hover{
+    background-color: var(--cor5);
+}
+
+main > div#sec1{
+    background-image: linear-gradient(to bottom, white, var(--cor3));
+}
+
+main > div#sec1 > section#sec1{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main > div#sec1 > section#sec1 > div{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    width: 40%;
+} 
+
+main > div#sec1 > section#sec1 > div > h1{
+    font-size: 4.5em;
+    letter-spacing: 2px;
+}
+
+main > div#sec1 > section#sec1 > div > h1 > strong{
+    text-shadow: 0px 0px 10px var(--cor2), 0px 0px 40px var(--cor2), 0px 0px 20px var(--cor2);
+}
+
+
+main > div#sec1 > section#sec1 > img{
+    margin-right: 50px;
+}
+
+main > div#sec1 > section#sec1 > div > div > a{
+    font-weight: bold;
+    font-size: 1.3em;
+    background-color: var(--cor2);
+    padding: 15px 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main > div#sec1 > section#sec1 > div > div > a:hover{
+    background-color: var(--cor6);
+}
+
+main > div#sec2{
+    background-color: var(--cor7);
+}
+
+main > div#sec2 > section#sec2{
+    max-width: 1440px;
+    height: 1021px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main > div#sec2 > section#sec2 > h1{
+    margin: 100px 0px;
+    font-size: 3em;
+}
+
+main > div#sec2 > section#sec2 > article{
+    display: flex;
+    margin: 0px 50px;
+    gap: 50px;
+}
+
+main > div#sec2 > section#sec2 > article > div{
+    width: 400px;
+    flex-grow: 1;
+    background-color: white;
+    height: 450px;
+    border-radius: 10px;
+}
+
+main > div#sec2 > section#sec2 > article > div > img{
+    width: 100%;
+}
+
+main > div#sec2 > section#sec2 > article > div > h2{
+    margin: 20px 30px;
+    font-size: 2em;
+    text-align: left;
+}
+
+main > div#sec2 > section#sec2 > article > div > p{
+    text-align: left;
+    margin: 0px 30px;
+}
+
+main > div#sec2 > section#sec2 > div{
+    margin-top: 100px;
+}
+
+main > div#sec2 > section#sec2 > div > a{
+    font-weight: bold;
+    font-size: 1.3em;
+    background-color: var(--cor2);
+    padding: 15px 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main > div#sec2 > section#sec2 > div > a:hover{
+    background-color: var(--cor6);
+}
+
+main > div#sec3{
+    background-color: var(--cor4);
+}
+
+main > div#sec3 > section#sec3{
+    max-width: 1440px;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main > div#sec3 > section#sec3 > div{
+    margin-right: 50px;
+    color: white;
+}
+
+main > div#sec3 > section#sec3 > div > h1{
+    margin: 80px 0px 50px 50px;
+    font-size: 3em;
+}
+
+main > div#sec3 > section#sec3 > div > p{
+    margin-left: 50px;
+    font-size: 1.3em;
+}
+
+main > div#sec3 > section#sec3 > img{
+    margin-left: 50px;
+    align-self: flex-end;
+}
+
+main > div#sec4{
+    background-color: var(--cor7);
+}
+
+main > div#sec4 > section#sec4{
+    max-width: 1440px;
+    margin: auto;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+
+main > div#sec4 > section#sec4 > h1{
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+main > div#sec4 > section#sec4 > div#iframe{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+main > div#sec4 > section#sec4 > div#iframe > iframe{
+    width: 100%;
+}
+
+main > div#sec4 > section#sec4 > div#infos{
+    text-align: right;
+    margin-right: 50px;
+}
+
+div#divfooter{
+    background-color: var(--cor1);
+}
+
+div#divfooter > footer{
+    max-width: 1440px;
+    margin: auto;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
